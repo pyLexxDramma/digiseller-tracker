@@ -8,19 +8,18 @@
 
 Проект состоит из следующих файлов:
 
+## Project Structure
 
-project-name/
-+-- .gitignore
-+-- LICENSE
-+-- README.md
-+-- manifest.json
-+-- popup/
-|   +-- popup.html
-|   +-- popup.js
-+-- content/
-|   +-- content.js
-+-- styles/
-|   +-- styles.css
+*   `.gitignore`
+*   `README.md`
+*   `manifest.json`
+*   `popup/`
+    *   `popup.html`
+    *   `popup.js`
+*   `content/`
+    *   `content.js`
+*   `styles/`
+    *   `styles.css`
 
 *   **`manifest.json`**: Этот файл манифеста описывает расширение, его разрешения и используемые файлы. Он необходим Chrome, чтобы понять, как расширение должно быть загружено и выполнено.
 *   **`popup.html`**: Эта HTML-страница отображается при нажатии на значок расширения на панели инструментов Chrome. Она содержит элементы для выбора дат, переключатель для объединения категорий (Main/Xbox) и кнопку для создания отчета.
