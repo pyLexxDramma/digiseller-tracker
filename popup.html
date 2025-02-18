@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отчет по транзакциям</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Генерация отчета</h1>
+        <label for="startDate">Начальная дата:</label>
+        <input type="date" id="startDate">
+        
+        <label for="endDate">Конечная дата:</label>
+        <input type="date" id="endDate">
+        
+        <label>
+            <input type="checkbox" id="combineCategories" checked>
+            Объединить категории (MAIN и XBOX)
+        </label>
+        
+        <button id="generateReport">СГЕНЕРИРОВАТЬ ОТЧЕТ</button>
+        
+        <div id="output" class="output"></div>
+        <footer>made by LexxDramma</footer>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
